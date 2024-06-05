@@ -123,3 +123,9 @@ hr{
     tex-decoration:none;
    font-family: 'College', arial, Sans-Serif!important;
 }
+@media(min-width:992px){
+.img-bodega,
+.img-monasterio{
+  max-width:70%;
+}
+}
