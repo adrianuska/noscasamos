@@ -1,12 +1,12 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'Elliora';
-  src: url('../fonts/Elliora.ttf') format('truetype');
+  src: url('Elliora.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'College';
-  src: url('../fonts/SuperCollege.otf') format('truetype');
+  src: url('SuperCollege.otf') format('truetype');
 }
 body{
   font-family: 'Elliora', arial,  Sans-Serif;
