@@ -104,8 +104,13 @@ hr{
 .col-cen{
   font-family: 'College', arial, Sans-Serif!important;
   font-size:35px;
-  font-weight:700;
   color:#165e2c;
+  line-height:40px;
+}
+.col-start,
+.col-end{
+  margin-top: 3rem!important;
+  margin-bottom: 3rem!important;
 }
 .col-start div,
 .col-end div{
