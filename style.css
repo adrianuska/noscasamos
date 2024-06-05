@@ -44,7 +44,7 @@ hr{
   text-decoration: none!important;
 }
 .button-map:hover{
-  color: #9ed9b0 !important;
+  color: #FFF !important;
 }
 .button-map img{
   vertical-align: text-top;
@@ -59,7 +59,7 @@ hr{
   font-size:18px;
   line-height:23px;
   text-decoration: none;
-  color:#FFF!important
+  color:#212529!important;
 }
 .was img{
   vertical-align: top;
