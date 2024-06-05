@@ -116,4 +116,5 @@ hr{
 .col-end div{
   border-top:1px solid #165e2c;
   border-bottom:1px solid #165e2c;
+  padding: 5px 0;
 }
