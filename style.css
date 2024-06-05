@@ -107,3 +107,8 @@ hr{
   font-weight:700;
   color:#165e2c;
 }
+.col-start div,
+.col-end div{
+  border-top:1px solid #165e2c;
+  border-bottom:1px solid #165e2c;
+}
