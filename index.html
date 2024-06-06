@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Emi y Sergio 31-08-2024</title>
     <meta name="description" content="Invitación boda de Emi y Sergio que se celebrará el día 31 de Agosto en el Monasterio de Úcles">
-    <meta name="format-detection" content="telephone=yes"> 
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
@@ -95,7 +95,7 @@
                 <hr>
                 <p>Veros reír, bailar y disfrutar es el mejor regalo que nos podéis  dar, pero aún así el banquero, sus deudas quiere regularizar y por eso este número de cuenta os vamos a facilitar:</p>
                 <div class="text-center ">
-                    <div class="num" contenteditable="false">ES4900301173700000534271</div>
+                   <img src="num.jpg">
                 </div>
             </div>
 
@@ -122,24 +122,7 @@
         </div>
 
 </main>
-<script>
-        // Función para determinar si un número es un número de teléfono específico
-        function esNumeroDeTelefono(numero) {
-            // Aquí puedes agregar tu lógica para determinar qué números son tratados como números de teléfono
-            return numero.startsWith("https://wa.me/"); // Supongamos que solo los números que comienzan con +1 serán tratados como números de teléfono
-        }
 
-        // Modificar dinámicamente la metaetiqueta dependiendo del número
-        document.addEventListener("DOMContentLoaded", function() {
-            var numerosNoTelefono = ["0030 1173 7000 0053 4271"]; // Agrega los números que no deseas que se traten como números de teléfono
-
-            numerosNoTelefono.forEach(function(numero) {
-                if (!esNumeroDeTelefono(numero)) {
-                    document.querySelector('meta[name="format-detection"]').setAttribute('content', 'telephone=no');
-                }
-            });
-        });
-    </script>
 </body>
 </html>
 
