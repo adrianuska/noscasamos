@@ -2,7 +2,6 @@
 @font-face {
   font-family: 'Elliora';
   src: url('Elliora.ttf') format('truetype');
-   font-variant-ligatures: none;
 }
 
 @font-face {
@@ -14,7 +13,6 @@ body{
   font-size:26px;
   line-height: 30px;
   color:#212529;
-   font-variant-ligatures: none;
 }
 h2{
   font-family: 'College', arial, Sans-Serif;
