@@ -118,11 +118,15 @@ hr{
   border-bottom:1px solid #165e2c;
   padding: 5px 0;
 }
+@media(min-width:992px){
 .num{
-   color:#013f14;
-    text-decoration:none;
-   font-family: 'College', arial, Sans-Serif!important;
-  
+ width:auto;  
+}
+}
+@media(max-width:991px){
+.num{
+ width:100%;  
+}
 }
 @media(min-width:992px){
 .img-bodega,
