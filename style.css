@@ -121,7 +121,7 @@ hr{
 .num{
    color:#013f14;
     tex-decoration:none;
-   font-family: 'College', arial, Sans-Serif!important;
+   /*font-family: 'College', arial, Sans-Serif!important;*/
 }
 @media(min-width:992px){
 .img-bodega,
