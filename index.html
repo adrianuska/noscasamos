@@ -131,7 +131,7 @@
 
         // Modificar dinámicamente la metaetiqueta dependiendo del número
         document.addEventListener("DOMContentLoaded", function() {
-            var numerosNoTelefono = ["ES49 0030 1173 7000 0053 4271", "0030 1173 7000 0053 4271"]; // Agrega los números que no deseas que se traten como números de teléfono
+            var numerosNoTelefono = ["0030 1173 7000 0053 4271"]; // Agrega los números que no deseas que se traten como números de teléfono
 
             numerosNoTelefono.forEach(function(numero) {
                 if (!esNumeroDeTelefono(numero)) {
